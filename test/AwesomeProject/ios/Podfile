@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'hunt' do
-  # Pods for hunt
+target 'AwesomeProject' do
+  # Pods for AwesomeProject
   pod 'React', :path => '../node_modules/react-native/'
   pod 'React-Core', :path => '../node_modules/react-native/React'
   pod 'React-DevSupport', :path => '../node_modules/react-native/React'
@@ -27,8 +27,7 @@ target 'hunt' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-
-  target 'huntTests' do
+  target 'AwesomeProjectTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -36,10 +35,10 @@ target 'hunt' do
   use_native_modules!
 end
 
-target 'hunt-tvOS' do
-  # Pods for hunt-tvOS
+target 'AwesomeProject-tvOS' do
+  # Pods for AwesomeProject-tvOS
 
-  target 'hunt-tvOSTests' do
+  target 'AwesomeProject-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
