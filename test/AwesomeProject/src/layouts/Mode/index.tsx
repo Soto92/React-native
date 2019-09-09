@@ -10,7 +10,6 @@ import styles from './styles';
 const Mode = (): ReactElement => {
   const {
     container,
-    header,
     title,
     imageLogo,
     imageExit,
@@ -19,7 +18,6 @@ const Mode = (): ReactElement => {
 
   return (
     <ScrollView style= {container} >
-      
         <View style= {title}>
         <Image
             style={imageLogo}
@@ -30,13 +28,12 @@ const Mode = (): ReactElement => {
           source={require('../../assets/images/icoExit.png')}
         />
         </View>
-      
       <View style= {content}>
-          <View><ButtonInstalation title='x'
-          //title={I18n.t('INSTALATION_BUTTON')} 
+          <View><ButtonInstalation
+          title={I18n.t('INSTALATION_BUTTON')} 
           /></View>
-          <View><ButtonMaintenance title='y'
-          //title={I18n.t('MAINTENANCE_BUTTON')} 
+          <View><ButtonMaintenance
+          title={I18n.t('MAINTENANCE_BUTTON')} 
           /></View>
       </View>
      

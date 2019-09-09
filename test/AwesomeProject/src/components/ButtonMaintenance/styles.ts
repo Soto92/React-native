@@ -1,12 +1,17 @@
 import { StyleSheet, Dimensions, Platform } from 'react-native';
 
 export default StyleSheet.create({
+  imageTool: {
+    height: 48,
+    width: 48,
+  },
+
   buttonStyle: {
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-end',
     marginTop: 15,
-    width: 200,
-    height: 131,
+    width: 180,
+    height: 125,
     borderColor: '#3a659e',
     borderWidth: 0.8,
     borderRadius: 12,
@@ -18,10 +23,10 @@ export default StyleSheet.create({
 
   pressedButton: {
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-end',
     marginTop: 15,
-    width: 200,
-    height: 131,
+    width: 180,
+    height: 125,
     borderRadius: 12,
     borderColor: '#3a659e',
     borderWidth: 0.8,
@@ -32,9 +37,10 @@ export default StyleSheet.create({
   },
 
   textStyle: {
+    marginTop: 10,
+    marginBottom: 16,
     color: '#3a659e',
-    fontSize: 14,
-    textTransform: 'uppercase',
+    fontSize: 18,
     fontFamily: 'encodesans',
     fontWeight: '500',
   },

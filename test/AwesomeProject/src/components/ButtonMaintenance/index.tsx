@@ -1,5 +1,5 @@
 import React, { ReactElement, useState } from 'react';
-import { TouchableWithoutFeedback, View, Text } from 'react-native';
+import { TouchableWithoutFeedback, Image, Text } from 'react-native';
 import * as Animatable from 'react-native-animatable';
 
 import styles from './styles';
@@ -11,7 +11,7 @@ interface ButtonProps {
 
 const ButtonMaintenance = (props: ButtonProps): ReactElement => {
   const { title, onPress } = props;
-  const { buttonStyle, pressedButton, textStyle } = styles;
+  const { buttonStyle, pressedButton, imageTool, textStyle } = styles;
   const [isPressed, setPressed] = useState(false);
   const baseColor = '#ffffff';
   const pressedColor = '#80ace0';
@@ -40,6 +40,7 @@ const ButtonMaintenance = (props: ButtonProps): ReactElement => {
         animation={ isPressed ? pressAnimation : releaseAnimation }
         duration={200}
       >
+        <Image source={require('../../assets/images/Setting.png')} style = {imageTool} />
         <Text style={textStyle}>{title}</Text>
       </Animatable.View>
     </TouchableWithoutFeedback>

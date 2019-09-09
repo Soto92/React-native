@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* AwesomeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AwesomeProjectTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -16,6 +15,15 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* AwesomeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AwesomeProjectTests.m */; };
+		F9F9B657BACB4F4E8FE1FB03 /* EncodeSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 439B1E245FD345C1BA582B5B /* EncodeSans-Black.ttf */; };
+		B2DBF93311E041B495093380 /* EncodeSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B072C709D62C41CBA72765A8 /* EncodeSans-Bold.ttf */; };
+		8F8946EFC9E444C890FA54B9 /* EncodeSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 292642A676A04AB4B4DF6014 /* EncodeSans-ExtraBold.ttf */; };
+		9F68F01096CC4A50B66B79E2 /* EncodeSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D710645EEF5B4FCEA4A63700 /* EncodeSans-ExtraLight.ttf */; };
+		CD2A52DA9EEC44DAB957CEC9 /* EncodeSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63CBCAD61B9F49E995C83A68 /* EncodeSans-Light.ttf */; };
+		29C10287751D4B9FA2E11E8E /* EncodeSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDC3389859D7421CA940052C /* EncodeSans-Medium.ttf */; };
+		134DD2286DA848958195C904 /* EncodeSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F8CBEDEBB16485592389111 /* EncodeSans-Regular.ttf */; };
+		789708A7FD034D238FD05CE4 /* EncodeSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91E11EA1AF0E41F08E5A8F09 /* EncodeSans-SemiBold.ttf */; };
+		0663F13EB4634AFBAB6CB78C /* EncodeSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B1360A84B4919892BD589 /* EncodeSans-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,15 @@
 		2D02E4901E0B4A5D006451C7 /* AwesomeProject-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AwesomeProject-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		439B1E245FD345C1BA582B5B /* EncodeSans-Black.ttf */ = {isa = PBXFileReference; name = "EncodeSans-Black.ttf"; path = "../src/assets/fonts/EncodeSans-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B072C709D62C41CBA72765A8 /* EncodeSans-Bold.ttf */ = {isa = PBXFileReference; name = "EncodeSans-Bold.ttf"; path = "../src/assets/fonts/EncodeSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		292642A676A04AB4B4DF6014 /* EncodeSans-ExtraBold.ttf */ = {isa = PBXFileReference; name = "EncodeSans-ExtraBold.ttf"; path = "../src/assets/fonts/EncodeSans-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D710645EEF5B4FCEA4A63700 /* EncodeSans-ExtraLight.ttf */ = {isa = PBXFileReference; name = "EncodeSans-ExtraLight.ttf"; path = "../src/assets/fonts/EncodeSans-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		63CBCAD61B9F49E995C83A68 /* EncodeSans-Light.ttf */ = {isa = PBXFileReference; name = "EncodeSans-Light.ttf"; path = "../src/assets/fonts/EncodeSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CDC3389859D7421CA940052C /* EncodeSans-Medium.ttf */ = {isa = PBXFileReference; name = "EncodeSans-Medium.ttf"; path = "../src/assets/fonts/EncodeSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4F8CBEDEBB16485592389111 /* EncodeSans-Regular.ttf */ = {isa = PBXFileReference; name = "EncodeSans-Regular.ttf"; path = "../src/assets/fonts/EncodeSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		91E11EA1AF0E41F08E5A8F09 /* EncodeSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "EncodeSans-SemiBold.ttf"; path = "../src/assets/fonts/EncodeSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F1B1360A84B4919892BD589 /* EncodeSans-Thin.ttf */ = {isa = PBXFileReference; name = "EncodeSans-Thin.ttf"; path = "../src/assets/fonts/EncodeSans-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +157,7 @@
 				00E356EF1AD99517003FC87E /* AwesomeProjectTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				0BEDDA82AC274E87BC099F7F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -156,6 +174,23 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		0BEDDA82AC274E87BC099F7F /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				439B1E245FD345C1BA582B5B /* EncodeSans-Black.ttf */,
+				B072C709D62C41CBA72765A8 /* EncodeSans-Bold.ttf */,
+				292642A676A04AB4B4DF6014 /* EncodeSans-ExtraBold.ttf */,
+				D710645EEF5B4FCEA4A63700 /* EncodeSans-ExtraLight.ttf */,
+				63CBCAD61B9F49E995C83A68 /* EncodeSans-Light.ttf */,
+				CDC3389859D7421CA940052C /* EncodeSans-Medium.ttf */,
+				4F8CBEDEBB16485592389111 /* EncodeSans-Regular.ttf */,
+				91E11EA1AF0E41F08E5A8F09 /* EncodeSans-SemiBold.ttf */,
+				6F1B1360A84B4919892BD589 /* EncodeSans-Thin.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -240,7 +275,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -293,6 +328,15 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				F9F9B657BACB4F4E8FE1FB03 /* EncodeSans-Black.ttf in Resources */,
+				B2DBF93311E041B495093380 /* EncodeSans-Bold.ttf in Resources */,
+				8F8946EFC9E444C890FA54B9 /* EncodeSans-ExtraBold.ttf in Resources */,
+				9F68F01096CC4A50B66B79E2 /* EncodeSans-ExtraLight.ttf in Resources */,
+				CD2A52DA9EEC44DAB957CEC9 /* EncodeSans-Light.ttf in Resources */,
+				29C10287751D4B9FA2E11E8E /* EncodeSans-Medium.ttf in Resources */,
+				134DD2286DA848958195C904 /* EncodeSans-Regular.ttf in Resources */,
+				789708A7FD034D238FD05CE4 /* EncodeSans-SemiBold.ttf in Resources */,
+				0663F13EB4634AFBAB6CB78C /* EncodeSans-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
