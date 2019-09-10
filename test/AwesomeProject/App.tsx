@@ -1,12 +1,8 @@
-import React, { Fragment } from 'react';
-import Router from './src/Router/Router';
+import React, { FC } from "react";
+import AppContainer from "./src/Router/Router";
 
-const App = () => {
-  return (
-    <Fragment>
-      <Router />
-    </Fragment>
-  );
-};
-
-export default App;
+export default class App extends React.Component {
+  render() {
+    return <AppContainer />;
+  }
+}
